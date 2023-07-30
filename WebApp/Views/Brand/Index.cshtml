@@ -1,0 +1,9 @@
+@model List<WebApp.Models.Brand>
+<table>
+    @foreach(WebApp.Models.Brand item in Model){
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+        </tr>
+    }
+</table>
